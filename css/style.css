@@ -1517,6 +1517,7 @@
 }
 #post .pjax article :not(pre) > code {
   color: #0269c8;
+  font-size: 12px;
   font-family: "Times New Roman";
   padding: 0.065em 0.4em;
 }
