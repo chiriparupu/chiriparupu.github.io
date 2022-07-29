@@ -36,6 +36,7 @@
   }
 }
 @media screen and (max-width: 1366px) {
+  #post,
   #post > .pjax {
     margin: 0 auto;
   }

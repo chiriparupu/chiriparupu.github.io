@@ -509,8 +509,8 @@
   user-select: none;
 }
 .nav-left .avatar {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   margin: 55px auto 15px;
   border-radius: 50%;
   box-shadow: 0 0 0 4px #fff, 0 0 4px 4px #eee;
@@ -1177,7 +1177,7 @@
   line-height: 2.25;
   background-image: url("https://s2.loli.net/2022/07/29/YXdObjwyxKV9gJZ.jpg");
   background-size: cover;
-  padding: 0 10px 0 10px;
+  padding: 0 15px 0 15px;
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
@@ -1222,30 +1222,26 @@
 }
 #post .pjax article .post-nav {
   display: flex;
+  float: right;
 }
 #post .pjax article .post-nav-item {
-  padding: 10px 0 20px 0;
-  vertical-align: top;
-  margin-right: 10px;
+  margin-right: 20px;
+  margin-top: -35px;
 }
 #post .pjax article .post-nav-next a {
   position: center;
   text-align: center;
-  background: rgba(105,111,150,0.3);
-  border-radius: 5px 5px 5px 5px;
 }
 #post .pjax article .post-nav-prev a {
   position: center;
   text-align: center;
-  background: rgba(105,111,150,0.3);
-  border-radius: 5px 5px 5px 5px;
 }
 #post .pjax article .post-nav-item a {
   position: relative;
   line-height: 25px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bolder;
-  text-shadow: 1px 1px rgba(128,128,128,0.3);
+  text-shadow: 0.5px 0.5px rgba(128,128,128,0.3);
   color: #988796;
   border-bottom: none;
 }
@@ -1375,10 +1371,10 @@
   border-right-color: #969;
 }
 #post .pjax article .article-meta .tag a.color3 {
-  background: #c99;
+  background: #988796;
 }
 #post .pjax article .article-meta .tag a.color3:before {
-  border-right-color: #c99;
+  border-right-color: #988796;
 }
 #post .pjax article .article-meta .tag a.color4 {
   background: #94635c;
@@ -1406,7 +1402,7 @@
 #post .pjax article a {
   color: #0269c8;
   word-break: break-all;
-  border-bottom: 1px solid #d1e9ff;
+  border-bottom: 1px solid #696f96;
 }
 #post .pjax article a:hover {
   text-decoration: underline;
@@ -1520,8 +1516,7 @@
   background-color: #eac67a;
 }
 #post .pjax article :not(pre) > code {
-  color: #009688;
-  font-size: 0.87em;
+  color: #0269c8;
   font-family: "Times New Roman";
   padding: 0.065em 0.4em;
 }
@@ -1834,6 +1829,7 @@ img.pswp__img {
   }
 }
 @media screen and (max-width: 1366px) {
+  #post,
   #post > .pjax {
     margin: 0 auto;
   }
