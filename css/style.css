@@ -513,7 +513,7 @@
   height: 80px;
   margin: 55px auto 15px;
   border-radius: 50%;
-  box-shadow: 0 0 0 3px #ffeded, 0 0 3px 3px #faf7f7;
+  box-shadow: 0 0 0 3px #faf7f7, 0 0 3px 3px #faf7f7;
   background-repeat: no-repeat;
   background-size: 100px 100px;
   display: block;
@@ -1218,7 +1218,6 @@
   font-size: 13px;
   padding: 2.5em;
   background: #faf7f7;
-  box-shadow: 10px 10px 5px #888;
 /* Inline code */
 }
 #post .pjax article .post-nav {
