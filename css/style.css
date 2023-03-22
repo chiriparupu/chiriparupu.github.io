@@ -1267,7 +1267,7 @@
   font-size: 0.9em;
   font-family: Consolas;
   color: #bcc1c4;
-  border-left: 3px solid #b4b4b4;
+  border-left: 3px solid rgba(150,133,142,0.27);
   padding-left: 10px;
 }
 #post .pjax article .article-meta > span {
@@ -1449,7 +1449,14 @@
   margin-bottom: 22px;
 }
 #post .pjax article .inner-toc {
-  border: #e2dede solid 1px;
+  border: rgba(150,133,142,0.27) solid 2px;
+  border-radius: 10px;
+  text-indent: 0em;
+  color: #35364b;
+  font-weight: bolder;
+  background: #eee;
+  padding: 1em;
+  position: relative;
 }
 #post .pjax article .inner-toc h2 {
   border-bottom: none;
