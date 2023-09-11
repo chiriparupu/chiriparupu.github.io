@@ -43,6 +43,10 @@
   .full-toc > .full {
     right: 30px;
   }
+  .web_notice {
+    background: rgba(0,0,0,0.3);
+    backdrop-filter: blur(3px);
+  }
 }
 @media screen and (max-width: 1024px) {
   .nav {
