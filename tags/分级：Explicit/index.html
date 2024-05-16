@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <title>地下室手记</title>
@@ -753,27 +752,31 @@
         </article>
         
         
+    <section id="comments" style="margin:10px;padding:10px;background:#fff;">
+        <div id="comments" class="vcomment"></div>
 
-
-    <div id="comments" class="vcomment"></div>
 <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
 <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
 
 <script>
-    var notify = 'false' == 'true' ? true : false;
-    var verify = 'false' == 'true' ? true : false;
     //window.onload = function() {
     new Valine({
         el: '#comments',
-        notify: notify,
-        verify: verify,
         app_id: "7rN6EE8TsP3iyfps4eEsg33h-gzGzoHsz",
         app_key: "svIDcvASQIDFcLomHGUcc8pW",
-
+        meta: ['nick'],
+        path: window.location.pathname,
+        recordIP: false,
+        placeholder: "功能测试中……喜欢欢迎留评噢！",
     });
     //}
 </script>
 
+
+
+
+
+    </section>
 
     </div>
     <div class="copyright">

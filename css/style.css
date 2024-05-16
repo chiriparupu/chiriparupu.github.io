@@ -1,6 +1,6 @@
 #comments {
   padding: 2.5em;
-  background: #fff;
+  background: #faf7f7;
 }
 #comments .comment-bar {
   display: block;
@@ -38,6 +38,9 @@
   content: "\f27b";
 }
 #comments .comment-bar a .fa.fa-spinner {
+  display: none;
+}
+.vpower.txt-right {
   display: none;
 }
 .shang_box {
