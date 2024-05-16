@@ -9,7 +9,7 @@
 <meta name="description" content="您所访问的页面不存在或已被作者删除。  5 秒后将自动返回站点首页。您也可以点击此处立即返回。       let countTime &#x3D; 5; function count() {   document.getElementById(&#39;timeout&#39;).textContent &#x3D; countTime;   countTime -&#x3D; 1;   if(countTime &#x3D;&#x3D;&#x3D; -1){">
 <meta property="og:type" content="website">
 <meta property="og:title" content="404 Not Found: 找不到这个页面哦！">
-<meta property="og:url" content="http://example.com/404.html">
+<meta property="og:url" content="http://guijiujiaojiang.com/404.html">
 <meta property="og:site_name" content="地下室手记">
 <meta property="og:description" content="您所访问的页面不存在或已被作者删除。  5 秒后将自动返回站点首页。您也可以点击此处立即返回。       let countTime &#x3D; 5; function count() {   document.getElementById(&#39;timeout&#39;).textContent &#x3D; countTime;   countTime -&#x3D; 1;   if(countTime &#x3D;&#x3D;&#x3D; -1){">
 <meta property="og:locale" content="zh_CN">
@@ -480,7 +480,7 @@
         
         <a  class="全部文章 主播系列 "
            href="/posts/3702217737/"
-           data-tag="主播系列,口嗨,分级：Explicit"
+           data-tag="分级：Explicit,主播系列,口嗨"
            data-author="" >
             <span class="post-title" style="font-size: 13px;font-family:Times New Roman" title="【主播系列】口嗨1">【主播系列】口嗨1</span>
             <span class="post-date" style="font-size: 13px;font-family: Times New Roman" title="2023-09-13 00:22:40">2023/09/13</span>
@@ -489,7 +489,7 @@
         
         <a  class="全部文章 魅魔系列 "
            href="/posts/2536908673/"
-           data-tag="口嗨,分级：Explicit,魅魔系列"
+           data-tag="分级：Explicit,口嗨,魅魔系列"
            data-author="" >
             <span class="post-title" style="font-size: 13px;font-family:Times New Roman" title="【魅魔系列】口嗨1~3">【魅魔系列】口嗨1~3</span>
             <span class="post-date" style="font-size: 13px;font-family: Times New Roman" title="2023-09-09 00:53:18">2023/09/09</span>
@@ -498,7 +498,7 @@
         
         <a  class="全部文章 原著衍生 "
            href="/posts/2487620558/"
-           data-tag="分级：Explicit,原著向"
+           data-tag="原著向,分级：Explicit"
            data-author="" >
             <span class="post-title" style="font-size: 13px;font-family:Times New Roman" title="【原著衍生】水不到渠也成">【原著衍生】水不到渠也成</span>
             <span class="post-date" style="font-size: 13px;font-family: Times New Roman" title="2023-08-03 01:08:52">2023/08/03</span>
@@ -507,7 +507,7 @@
         
         <a  class="全部文章 主播系列 "
            href="/posts/697571183/"
-           data-tag="主播系列,分级：Explicit"
+           data-tag="分级：Explicit,主播系列"
            data-author="" >
             <span class="post-title" style="font-size: 13px;font-family:Times New Roman" title="【主播系列】网络红线牵珍惜这段缘">【主播系列】网络红线牵珍惜这段缘</span>
             <span class="post-date" style="font-size: 13px;font-family: Times New Roman" title="2023-07-04 20:57:45">2023/07/04</span>
@@ -516,7 +516,7 @@
         
         <a  class="全部文章 聊斋系列 "
            href="/posts/2403595120/"
-           data-tag="分级：Explicit,聊斋系列,上神×蛇妖"
+           data-tag="聊斋系列,上神×蛇妖,分级：Explicit"
            data-author="" >
             <span class="post-title" style="font-size: 13px;font-family:Times New Roman" title="【聊斋系列】上瘾">【聊斋系列】上瘾</span>
             <span class="post-date" style="font-size: 13px;font-family: Times New Roman" title="2023-05-23 21:27:32">2023/05/23</span>
@@ -774,28 +774,6 @@
         <span>字数:33k</span>
         
         
-        <span id="busuanzi_container_page_pv">
-            点击:<span id="busuanzi_value_page_pv">
-                <span class="count-comment">
-                    <span class="spinner">
-                      <div class="cube1"></div>
-                      <div class="cube2"></div>
-                    </span>
-                </span>
-            </span>
-        </span>
-        
-        
-        <span class="top-comment" title="跳转至评论区">
-            <a href="#comments">
-                post.comment:<span class="count-comment">
-                    <span class="spinner">
-                      <div class="cube1"></div>
-                      <div class="cube2"></div>
-                    </span>
-                </span>
-            </a>
-        </span>
         
     </div>
     
@@ -1486,13 +1464,20 @@
     </div>
 </article>
 
+
+
+
+
+
+
+
     <div id="comments" class="vcomment"></div>
 <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
 <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
 
 <script>
-    var notify = '' == true ? true : false;
-    var verify = '' == true ? true : false;
+    var notify = 'false' == 'true' ? true : false;
+    var verify = 'false' == 'true' ? true : false;
     //window.onload = function() {
     new Valine({
         el: '#comments',
@@ -1504,8 +1489,6 @@
     });
     //}
 </script>
-
-
 
 
 
