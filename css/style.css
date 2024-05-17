@@ -40,6 +40,9 @@
 #comments .comment-bar a .fa.fa-spinner {
   display: none;
 }
+#comments .vpower.txt-right {
+  display: none;
+}
 .shang_box {
   width: 540px;
   height: 450px;
