@@ -857,7 +857,7 @@
 
 
 
-       <hr><span style="color: gray;"> 本站所有文章禁止转载 </span>
+       
 
 
     </div>
@@ -868,11 +868,15 @@
 
 
 
-    <section id="comments" style="margin:10px;padding:10px;background:#fff;">
-        <div id="comments" class="vcomment"></div>
+
+
+
+    <div id="comments" class="vcomment"></div>
 
 <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script src="/js/Valine.min.js"></script>
+
 
 <script>
     //window.onload = function() {
@@ -880,10 +884,33 @@
         el: '#comments',
         app_id: "7rN6EE8TsP3iyfps4eEsg33h-gzGzoHsz",
         app_key: "svIDcvASQIDFcLomHGUcc8pW",
-        meta: ['nick'],
+        meta: ['nick','mail'],
         path: window.location.pathname,
         recordIP: false,
-        placeholder: "功能测试中……喜欢欢迎留评噢！",
+        placeholder: "Enter your text here..."+'\n\n'+"【字段说明】"+'\n'+"昵称：不填入时默认为Anonymous"+'\n'+"邮箱：填入QQ邮箱头像展示为QQ头像，不填或填其余邮箱则展示默认头像",
+        emojiCDN: 'https://pic.imgdb.cn/item/',
+        emojiMaps: {
+            "骆闻舟_盯" : "66476a85d9c307b7e986a023.gif",
+            "费渡_盯" : "65597f1fc458853aef7fb3f1.gif",
+            "骆闻舟_!!!" : "66476a85d9c307b7e986a034.gif",
+            "费渡_???" : "65597f1fc458853aef7fb44f.gif",
+            "骆闻舟_Zzz" : "66476a85d9c307b7e986a03e.gif",
+            "fd_Zzz" : "65597f1fc458853aef7fb45e.gif",
+            "骆闻舟_好困" : "66476a85d9c307b7e986a051.gif",
+            "费渡_好困" : "65597f1fc458853aef7fb497.gif",
+            "骆闻舟_工作中" : "66476a85d9c307b7e986a064.gif",
+            "费渡_工作中" : "65597f1fc458853aef7fb4c9.gif",
+            "lwz_FBI开门" : "66476a85d9c307b7e986a072.gif",
+            "费渡_摇晃红酒杯" : "65597f1fc458853aef7fb4fe.gif",
+            "骆闻舟_少看黄文" : "66476a85d9c307b7e986a080.gif",
+            "费渡_天凉王破" : "65597f1fc458853aef7fb527.gif",
+            "骆闻舟_写情书" : "66476a85d9c307b7e986a087.gif",
+            "费渡_写情书" : "65597f1fc458853aef7fb561.gif",
+            "骆闻舟_耍帅" : "66476a85d9c307b7e986a097.gif",
+            "费渡_送花花" : "65597f1fc458853aef7fb58f.gif",
+            "骆闻舟_鼓掌" : "66476a85d9c307b7e986a0a9.gif",
+            "费渡_鼓掌" : "65597f1fc458853aef7fb5a5.gif",
+        }
     });
     //}
 </script>
@@ -892,7 +919,6 @@
 
 
 
-    </section>
 
 
 

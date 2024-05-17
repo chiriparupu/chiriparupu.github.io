@@ -40,9 +40,6 @@
 #comments .comment-bar a .fa.fa-spinner {
   display: none;
 }
-.vpower.txt-right {
-  display: none;
-}
 .shang_box {
   width: 540px;
   height: 450px;
@@ -1386,7 +1383,7 @@
   border-right-color: #9c8d9b;
 }
 #post .pjax article .article-meta .tag a.color5 {
-  background: #7b5d5f;
+  background: #6c4e5a;
 }
 #post .pjax article .article-meta .tag a.color5:before {
   border-right-color: #7b5d5f;
