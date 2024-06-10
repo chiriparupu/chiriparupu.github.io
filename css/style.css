@@ -40,6 +40,9 @@
 #comments .comment-bar a .fa.fa-spinner {
   display: none;
 }
+#comments .vpower.txt-right a {
+  font-size: 12px;
+}
 .shang_box {
   width: 540px;
   height: 450px;
@@ -1182,7 +1185,7 @@
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Consolas, sans-serif;
-  color: #13161f;
+  color: #3f3f3f;
   margin-left: 1px;
 }
 #post ::selection {
@@ -1600,13 +1603,17 @@
   transition: 0.4s ease-in-out;
 }
 #post .copyright {
-  background: fff;
   margin-top: 50px;
   padding-bottom: 30px;
   line-height: 18px;
   text-align: center;
   font-weight: bolder;
   color: #696f96;
+}
+#post .copyright code {
+  font-family: "Times New Roman";
+  font-size: 12px;
+  border-bottom: 1px solid #eac67a;
 }
 #post .copyright .miit {
   display: inline-block;
