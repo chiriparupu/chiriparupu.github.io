@@ -1,4 +1,4 @@
-// A local search script with the help of [hexo-generator-search](https://github.com/PaicHyperionDev/hexo-generator-search)
+ search script with the help of [hexo-generator-search](https://github.com/PaicHyperionDev/hexo-generator-search)
 // Copyright (C) 2015 
 // Joseph Pan <http://github.com/wzpan>
 // Shuhao Mao <http://github.com/maoshuhao>
