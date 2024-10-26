@@ -1173,6 +1173,10 @@
     -webkit-transform: rotate(-360deg);
   }
 }
+@font-face {
+  font-family: "LXGWWenKai";
+  src: url("../fonts/LXGWWenKai-Regular.ttf") format('ttf');
+}
 #post {
   height: 100%;
   font-weight: 500;
