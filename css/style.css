@@ -1173,10 +1173,6 @@
     -webkit-transform: rotate(-360deg);
   }
 }
-@font-face {
-  font-family: "LXGWWenKai-Regular";
-  src: url("fonts/LXGWWenKai-Regular.ttf") format('ttf');
-}
 #post {
   height: 100%;
   font-weight: 500;
@@ -1221,7 +1217,6 @@
 }
 #post .pjax article {
   text-indent: 2em;
-  font-family: "LXGWWenKai-Regular";
   font-size: 13px;
   padding: 2.5em;
   background: #faf7f7;
