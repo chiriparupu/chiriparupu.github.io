@@ -300,6 +300,14 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Phoenix';
+  src: url("./fonts/【泽叔】凤凰.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Edgeworth';
+  src: url("./fonts/红豆小标宋简体.ttf") format("truetype");
+}
 .article .article-meta .date:before,
 .nav-right nav a:before,
 #local-search-result a:before,
@@ -499,6 +507,7 @@
   opacity: 0;
 }
 .nav-left {
+  font-family: 'Times New Roman', 'Phoenix';
   width: 120px;
   height: 100%;
   background: #96858e;
@@ -636,6 +645,7 @@
   display: block;
 }
 .nav-right {
+  font-family: 'Times New Roman', 'Phoenix';
   width: 420px;
   height: 100%;
   background: #faf7f7;
@@ -1176,8 +1186,8 @@
 #post {
   height: 100%;
   font-weight: 500;
-  font-size: 0.9em;
-  line-height: 2.25;
+  font-size: 1em;
+  line-height: 1.75rem;
   background-image: url("https://pic.imgdb.cn/item/6558bba3c458853aef42f045.jpg");
   background-size: cover;
   padding: 0 15px 0 15px;
@@ -1266,8 +1276,8 @@
 }
 #post .pjax article .article-meta {
   text-indent: 0;
-  font-size: 0.9em;
-  font-family: Consolas;
+  font-size: 14px;
+  font-family: "Times New Roman", 'Edgeworth';
   color: #bcc1c4;
   border-left: 3px solid rgba(150,133,142,0.27);
   padding-left: 10px;
@@ -1392,6 +1402,7 @@
 }
 #post .pjax article .article-title {
   text-indent: 0em;
+  font-family: 'Phoenix';
   margin: 0;
   font-size: 1.8em;
   border-bottom: 0;
