@@ -1458,8 +1458,8 @@
 }
 #post .pjax article p {
   line-height: inherit;
-  margin-top: 22px;
-  margin-bottom: 22px;
+  margin-top: 13px;
+  margin-bottom: 13px;
 }
 #post .pjax article .inner-toc {
   border: rgba(150,133,142,0.27) solid 2px;
