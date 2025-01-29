@@ -260,7 +260,6 @@
             var currentVersion = typeof $.pjax.defaults.version === 'function' ?
                 $.pjax.defaults.version() :
                 $.pjax.defaults.version
-
             var latestVersion = xhr.getResponseHeader('X-PJAX-Version')
 
             var container = extractContainer(data, xhr, options)
